@@ -1,6 +1,6 @@
 # `docker2singularity` Demo
 
-This demo will show you how to convert a Docker container into a Singularity container, starting from a Dockerfile.
+This demo will convert a Docker container into a Singularity container, starting from a Dockerfile.
 
 __NOTE:__ Workflow designed for macOS with Docker and Vagrant installed, see Software notes below.
 
