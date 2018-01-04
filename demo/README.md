@@ -6,6 +6,13 @@
 make docker
 ```
 
+- make sure the demo Docker is working
+
+```bash
+make docker-test
+# FastQC v0.11.5
+```
+
 - setup the docker2singularity container and convert the demo Docker to Singularity
 
 ```bash
