@@ -14,7 +14,6 @@ make docker
 
 ```bash
 make docker-test
-# FastQC v0.11.5
 ```
 
 output:
@@ -39,13 +38,6 @@ output:
 ```
 ...
 ...
-perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-	LANGUAGE = "en_US:",
-	LC_ALL = (unset),
-	LANG = "en_US.UTF-8"
-    are supported and installed on your system.
-perl: warning: Falling back to the standard locale ("C").
 FastQC v0.11.5
 Connection to 127.0.0.1 closed.
 ```
@@ -61,5 +53,5 @@ make clean
 Used in this workflow:
 
 - Docker version 17.09.1-ce, build 19e2cf6
-- Vagrant 2.0.1
+- Vagrant 2.0.1 (see installation notes in `install_vagrant.md`)
 - macOS Sierra 10.12
