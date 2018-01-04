@@ -26,7 +26,6 @@ make docker-test
 
 output:
 ```
-docker run --rm -t stevekm/fastqc --version
 FastQC v0.11.5
 ```
 
