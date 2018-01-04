@@ -2,6 +2,8 @@ SHELL:=/bin/bash
 
 none:
 
+all: docker docker2singularity vagrant
+
 # create the demo Docker container for conversion to Singularity
 docker:
 	docker build -t stevekm/fastqc .

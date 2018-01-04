@@ -2,7 +2,15 @@
 
 This demo will show you how to convert a Docker container into a Singularity container, starting from a Dockerfile.
 
-__NOTE:__ Workflow designed for macOS
+__NOTE:__ Workflow designed for macOS with Docker and Vagrant installed, see Software notes below.
+
+You can run the entire demo workflow with
+
+```bash
+make all
+```
+
+## Step-wise Workflow
 
 - create the demo Docker container for conversion to Singularity
 
@@ -50,8 +58,10 @@ make clean
 
 # Software
 
-Used in this workflow:
+Tested with:
 
 - Docker version 17.09.1-ce, build 19e2cf6
+
 - Vagrant 2.0.1 (see installation notes in `install_vagrant.md`)
+
 - macOS Sierra 10.12
